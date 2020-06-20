@@ -1,0 +1,28 @@
+td{
+		border:1px solid;
+		padding: 5px;
+		text-align:center;
+		width: 20%;
+	}
+	#menu{
+		width:10%;
+		position:fixed;
+		top:0px;
+		left:0px;
+		height:100%;
+		background-color:#EAEDED;
+		padding:50px;
+	}
+	#menu a{
+		text-decoration:none;
+		color:black;
+		font-size:x-large;
+	}
+	#menu a:hover{
+		color:red;
+	}
+	#container{
+		position:absolute;
+		left:19%;
+		top:5%;
+	}

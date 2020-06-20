@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+	body { 
+		overflow:hidden;
+	}
+	a {
+	  text-decoration:none;
+	}
+	#LoginRegister {
+		position:absolute;
+		width: .001vmin;
+		height: .001vmin;
+		right: 95px;
+		margin: 5px;
+		border: 3px;
+		border-radius: 5px;
+	}
+	#LoginRegister a {
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		float:left;
+		font-size: 120%;
+		color:white;
+	}
+	#LoginRegister a:hover {
+		color:orange;
+	}
+	#logo {
+		position:absolute;
+		top:1%;
+		left:1%;
+		-webkit-user-select: none;  /* Chrome all / Safari all */
+		-moz-user-select: none;     /* Firefox all */
+		-ms-user-select: none;      /* IE 10+ */
+		user-select: none;          /* Likely future */ 
+	}
+    .chatbox {
+        font-size: 4em;
+        position: fixed;
+        justify-content: center;
+        background:#ece5dd;
+        width:350px;
+        height:500px;
+        bottom:1%;
+        right:1%;
+        border:3px;
+        border-style: inset;
+    }
+    .button, .value {
+        line-height: 1;
+        border: medium solid;
+        min-height: 1em;
+        min-width: 1em;
+    }
+    .button {
+         cursor: pointer;
+         user-select: none;
+         font-size:12pt;
+         display: inline;
+         border:1px solid #7D99CA;
+         color: #fff;
+         border-radius: 10px;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+         font-family: Verdana;
+         width: auto;
+         height: auto;
+         font-size: 12pt;
+         padding: 10px 15px;
+         background-color: #25d366;
+     }
+     .button:hover, .button:active{
+          border:1px solid #5D7FBC;
+          color: #fff;
+          background-color: #97A8C7;
+     }
+    .minus {
+        color: red;
+    }
+    .plus {
+        color: green;
+    }
+    .value {
+        min-width: 2em;
+        width:90%;
+        resize: none;
+        height:80%;
+        font-size:12pt;
+    }
+    .state {
+        font-size: 2em;
+    }
+    #messagebox {
+          overflow:auto;
+     }
+     #you {
+         font-size: 12pt;
+         text-align: left;
+         margin-left: 1%;
+         background-color: #dcf8c6;
+         max-width:58%;
+         border-radius:5px;
+         padding-top:5px;
+         padding-bottom:5px;
+         padding-left:3%;
+     }
+     #bot {
+         font-size: 12pt;
+         text-align: left;
+         margin-right: 1%;
+         margin-left:32%;
+         max-width:65%;
+         background-color: white;
+         border-radius:5px;
+         padding-top:5px;
+         padding-bottom:5px;
+         padding-right:3%;
+         padding-left: 3%;
+    }
+    ::-webkit-scrollbar {
+  		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+  		background: #f1f1f1; 
+	}
+ 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+  		background: #888; 
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+  		background: #555; 
+	}
+
+	
+	#header {
+		background:#075e54;
+		width:95%;
+		color:white;
+		font-size:12pt;
+		padding-left: 5%;
+	    padding-top: 5%;
+	    padding-bottom: 5%;
+	    opacity: 1;
+	    box-sizing: initial;
+		-webkit-user-select: none;  /* Chrome all / Safari all */
+		-moz-user-select: none;     /* Firefox all */
+		-ms-user-select: none;      /* IE 10+ */
+		user-select: none;          /* Likely future */ 
+	}
+	#header:hpver{
+		opacity: 0.7;
+	}
+	#header2 {
+		position: fixed;
+	    bottom: 1%;
+	    right: 1%;
+	    background: #075e54;
+	    width: 285px;
+	    color: white;
+	    font-size: 12pt;
+	    padding-left: 2%;
+	    padding-top: 2%;
+	    padding-bottom: 2%;
+	    box-sizing: initial;
+   		-webkit-user-select: none;  /* Chrome all / Safari all */
+		-moz-user-select: none;     /* Firefox all */
+		-ms-user-select: none;      /* IE 10+ */
+		user-select: none;          /* Likely future */ 
+	}
+	#message {
+		border-radius:5px;
+		height: 44px;
+		width:76%;
+		box-sizing: initial;
+	}
+	
+	#goto {
+		position: absolute;
+		top:85%;
+		left:30%;
+	}
+	
+	#gotoButton {
+		width:150%;
+		font-size:28pt;
+		padding:5% 5% 5% 5%;
+	}
+	#button_icon {
+		width:auto;
+		height:38px;
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.close {
+		cursor: pointer;
+		
+	}
+	.close a{
+		margin-left: 70%;
+		font-weight: bold;
+		box-sizing: initial;
+		color: white;
+	}
+	.open {
+		visibility: hidden;
+		cursor: pointer;
+		box-sizing: initial;
+	}
